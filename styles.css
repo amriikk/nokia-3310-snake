@@ -6,6 +6,11 @@ body {
     background: rgb(153, 204, 255);
 }
 
+.snake-img {
+    width: 50px;
+    height: 100px;
+}
+
 .grid {
     width: 200px;
     height: 200px;
