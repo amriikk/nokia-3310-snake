@@ -45,3 +45,14 @@ function startGame(){
     currentSnake.forEach( index => squares[index].classList.add("snake"))
     interval = setInterval(moveOutcome, intervalTime))
 }
+
+function moveOutcome(){
+    let squares = document.querySelectorAll(".grid div")
+    if (checkForHits(squares)){
+        alert(' You hit something! ')
+        popup.style.display="flex"
+        return clearInterval(interval)
+    } else {
+        moveSnake(squares)
+    }
+}
