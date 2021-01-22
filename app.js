@@ -111,3 +111,8 @@ function control(e){
         direction = +width // down, the snake will instantlay appear 10 divs below the cuurent div
     }
 }
+
+up.addEventListener("click", () => direction= -width ) 
+bottom.addEventListener("click", () => direction= +width ) 
+left.addEventListener("click", () => direction= -1 ) 
+right.addEventListener("click", () => direction= 1 ) 
