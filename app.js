@@ -4,9 +4,9 @@ let playAgain = document.querySelector(".playAgain");
 let scoreDisplay = document.querySelector(".scoreDisplay")
 
 let left = document.querySelector(".left") 
-let bottom = document.querySelector(".bottom") 
+let down = document.querySelector(".down") 
 let right = document.querySelector(".right") 
-let up = document.querySelector(".top")
+let up = document.querySelector(".up")
 
 let width = 10; 
 let currentIndex = 0 
@@ -113,7 +113,7 @@ function control(e){
 }
 
 up.addEventListener("click", () => direction= -width ) 
-bottom.addEventListener("click", () => direction= +width ) 
+down.addEventListener("click", () => direction= +width ) 
 left.addEventListener("click", () => direction= -1 ) 
 right.addEventListener("click", () => direction= 1 ) 
 
