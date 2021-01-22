@@ -8,7 +8,7 @@ let down = document.querySelector(".down")
 let right = document.querySelector(".right") 
 let up = document.querySelector(".up")
 
-let width = 10; 
+let width = 100; 
 let currentIndex = 0 
 let appleIndex = 0 
 let currentSnake = [2,1,0] 
@@ -117,7 +117,7 @@ down.addEventListener("click", () => direction= +width )
 left.addEventListener("click", () => direction= -1 ) 
 right.addEventListener("click", () => direction= 1 ) 
 
-function replay() { 
+function replay(){ 
     grid.innerHTML="" 
     createBoard()   
     startGame()  
