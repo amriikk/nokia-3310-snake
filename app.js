@@ -43,7 +43,7 @@ function startGame(){
     currentSnake = [2,1,0]
     currentIndex = 0
     currentSnake.forEach( index => squares[index].classList.add("snake"))
-    interval = setInterval(moveOutcome, intervalTime))
+    interval = setInterval(moveOutcome, intervalTime)
 }
 
 function moveOutcome(){
