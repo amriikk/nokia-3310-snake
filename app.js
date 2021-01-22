@@ -8,7 +8,7 @@ let down = document.querySelector(".down")
 let right = document.querySelector(".right") 
 let up = document.querySelector(".up")
 
-let width = 100; 
+let width = 10; 
 let currentIndex = 0 
 let appleIndex = 0 
 let currentSnake = [2,1,0] 
