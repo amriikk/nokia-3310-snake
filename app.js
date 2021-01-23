@@ -102,11 +102,11 @@ function randomApple(squares){
 
 function control(e){
     if (e.keycode===39){
-        direction = 1 // right direction
+        direction = 1 // right direction, 1 div
     } else if (e.keycode===38){
-        direction = -width // hitting up^ arrow, the snake goes 10 divs up
+        direction = -width // up direction, the snake goes 10 divs up
     } else if (e.keycode===37){
-        direction = -1 // leff, snake will go left 1 div
+        direction = -1 // left direction, snake will go left 1 div
     } else if (e.keycode===40){
         direction = +width // down, the snake will instantlay appear 10 divs below the cuurent div
     }

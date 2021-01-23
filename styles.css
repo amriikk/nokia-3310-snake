@@ -1,9 +1,17 @@
 header {
+    font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
+    color: darkolivegreen;
 }
 
 body {
     background: rgb(150, 205, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background: yellow;
+    border-radius: cyan 5px;
 }
 
 .snake-img {
@@ -33,12 +41,13 @@ body {
     border-radius: 20px;
 }
 .popup {
-    background: rgb(32, 31, 31);
+    background: darkblue;
+    border-radius: 10px;
     width: 100px;
     height: 100px;
     position: fixed;
     top: 100px;
-    left: 100px;
+    left: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
