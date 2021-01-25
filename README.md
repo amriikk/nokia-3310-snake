@@ -3,6 +3,11 @@
 
 ### John Trujillo
 
+#### Introduction
+Full stack App Remake of Nokia 3310's Snake game.
+
+#### Game Preview
+
 
 #### Technolgies + Techniques
 -- HTML5
